@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html>  
+  <script>
+    var password = "mamma";
+    var a = prompt("metti la password per continuare");
+    if (a==password) {
+      alert("password corretta, benvenuto");
+    } else {
+      while (a!= password) {
+        if (a!=password) {
+          alert("password errata, riprova") ;
+          var a = prompt("metti la password per continuare");
+        }
+      }
+    }
+  </script>
 <head>
   <title>Hi, welcome</title>
   <style>
